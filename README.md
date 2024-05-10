@@ -1,6 +1,6 @@
 # Differential-NGS-Analysis
 
-This repository contains all the necessary code for reproducing the results from the paper titled: "JUND plays a genome-wide role in the quiescent to contractile switch in the pregnant human myometrium" by Nawrah Khader, Anna Dorogin, Oksana Shynlova, and Jennifer A. Mitchell. 
+This repository contains all the necessary code for reproducing the JUND ChIP-seq results from the paper titled: "JUND plays a genome-wide role in the quiescent to contractile switch in the pregnant human myometrium" by Nawrah Khader, Anna Dorogin, Oksana Shynlova, and Jennifer A. Mitchell. 
 
 # Requirements
 
