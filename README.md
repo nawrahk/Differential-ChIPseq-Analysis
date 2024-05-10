@@ -6,7 +6,7 @@ This repository contains all the necessary code for reproducing the JUND ChIP-se
 
 This script requires the following R packages:
 
-- tibble
+- dplyr
 - tidyverse
 - DiffBind
 - DESeq2
@@ -26,11 +26,11 @@ To run this analysis, execute the R script (originally written for ChIP-seq anal
 - .csv file containing all sample information
 
 # • Output files:
-- file: tab-delimited file of all consenus peaks
+- file: tab-delimited file of all consensus peaks
 - plot: Venn diagram of the overlap between different treatment/conditions
-- plot: Heatmap and PCA clustering of samples
+- plot: Heatmap and PCA clustering of replicates
 - file: .csv file reporting all differential peaks between different treatment/conditions
 - plot: Volcano plot of differential peaks
-- file: .csv file of read counts for all ChIP/ATAC replicates at all assessed peaks
+- file: .csv file of read counts for all replicates at assessed peaks
 - plot: Heatmap (with clustering) of scaled counts for all replicates
-- file: .csv file containing scaled coounts with associated cluster number that corresponds the heatmap
+- file: .csv file containing scaled counts with the associated cluster number, corresponding to the heatmap
