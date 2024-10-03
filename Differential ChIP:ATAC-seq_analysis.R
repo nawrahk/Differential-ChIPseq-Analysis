@@ -41,7 +41,7 @@ args <- commandArgs(TRUE)
 
 ###These correspond to the bash command above:
 
-#argument 1 refers to the sampledata sheet that is required to import your samples and the information pertaining      to them
+#argument 1 refers to the sampledata sheet that is required to import your samples and the information pertaining to them
 samplefile <- args[1]
 
 #argument 2 is the name for your output
